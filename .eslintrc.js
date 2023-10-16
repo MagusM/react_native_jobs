@@ -50,5 +50,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"], // Enforce trailing commas in multiline object and array literals
     "object-curly-spacing": ["error", "always"], // Require spaces after opening curly braces
     "no-multiple-empty-lines": ["error", { max: 1 }], // Disallow more than one blank line
+    "react/prop-types": "off",
+    "space-infix-ops": ["error", { int32Hint: false }],
   },
 };
